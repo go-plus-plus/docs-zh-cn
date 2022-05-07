@@ -7,11 +7,11 @@ import VueMasteryModal from './VueMasteryModal.vue';
 <template>
   <section id="hero">
     <h1 class="tagline">
-      <span class="accent">渐进式</span>
-      <br />JavaScript 框架
+      <span class="accent">Let's Go</span>
+      <br />Go 语言入门到精通
     </h1>
     <p class="description">
-      一款用于构建 Web 界面，易学易用，性能出色且功能丰富的框架。
+      Golang 是谷歌开发的开源编程语言，用于大规模构建快速、可靠和高效的软件。
     </p>
     <p class="actions">
       <vue-mastery-modal />
@@ -34,49 +34,49 @@ import VueMasteryModal from './VueMasteryModal.vue';
   </section>
 
   <!-- TODO make dynamic based on data -->
-  <section id="special-sponsor">
-    <span>特别赞助</span>
-    <a href="https://www.dcloud.io/hbuilderx.html?hmsr=vue-en&hmpl=&hmcu=&hmkw=&hmci=">
-      <picture>
-        <source type="image/avif" srcset="/images/sponsors/hbuilder.avif" />
-        <img
-          alt="hbuilder logo"
-          width="97"
-          height="36"
-          src="/images/sponsors/hbuilder.png"
-        />
-      </picture>
-    </a>
-    <span>为 Vue 打造的先进 IDE</span>
-  </section>
+<!--  <section id="special-sponsor">-->
+<!--    <span>特别赞助</span>-->
+<!--    <a href="https://www.dcloud.io/hbuilderx.html?hmsr=vue-en&hmpl=&hmcu=&hmkw=&hmci=">-->
+<!--      <picture>-->
+<!--        <source type="image/avif" srcset="/images/sponsors/hbuilder.avif" />-->
+<!--        <img-->
+<!--          alt="hbuilder logo"-->
+<!--          width="97"-->
+<!--          height="36"-->
+<!--          src="/images/sponsors/hbuilder.png"-->
+<!--        />-->
+<!--      </picture>-->
+<!--    </a>-->
+<!--    <span>为 Vue 打造的先进 IDE</span>-->
+<!--  </section>-->
 
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
       <h2>易学易用</h2>
       <p>
-        基于标准 HTML、CSS 和 JavaScript 构建，拥有直观的 API 和世界一流的文档。
+        Go 语法精简，仅仅只有 25 个关键字，但足够灵活。编译生成的是静态可执行文件，部署异常方便。
       </p>
     </div>
     <div class="vt-box">
       <h2>性能出色</h2>
       <p>
-        经过编译器优化、完全响应式的渲染系统，几乎不需要手动优化。
+        Go 内置并发编程。Goroutine 和 Channel 使得编写高并发的服务端软件变得相当容易。且能有效利用多核 CPU。
       </p>
     </div>
     <div class="vt-box">
-      <h2>功能丰富</h2>
+      <h2>生产力</h2>
       <p>
-        拥有丰富的、可渐进式集成的生态系统，可以根据规模在仅使用一个库和使用整套框架间切换自如。
+        内置并发和强大的标准库。不断发展的合作伙伴、社区和工具生态系统。编译迅速，开发过程无需等待。
       </p>
     </div>
   </section>
 
-  <section id="sponsors">
-    <h2>Platinum Sponsors</h2>
-    <SponsorsGroup tier="platinum" placement="landing" />
-    <h2>Gold Sponsors</h2>
-    <SponsorsGroup tier="gold" placement="landing" />
-  </section>
+<!--  <section id="sponsors">-->
+<!--    <h2>Platinum Sponsors</h2>-->
+<!--    <SponsorsGroup tier="platinum" placement="landing" />-->
+<!--    <h2>Gold Sponsors</h2>-->
+<!--    <SponsorsGroup tier="gold" placement="landing" />-->
+<!--  </section>-->
 
   <NewsLetter />
 </template>

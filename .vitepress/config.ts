@@ -636,7 +636,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         text: 'MIT License',
         link: 'https://opensource.org/licenses/MIT'
       },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Jason Gan`
     }
   },
 
