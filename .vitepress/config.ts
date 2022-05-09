@@ -7,7 +7,8 @@ import { headerPlugin } from './headerMdPlugin'
 
 const nav = [
   {
-    text: '文档',
+    // text: '文档',
+    text: '基础',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
       { text: '指南', link: '/guide/introduction' },
@@ -21,17 +22,18 @@ const nav = [
       }
     ]
   },
+  // {
+  //   text: 'API',
+  //   activeMatch: `^/api/`,
+  //   link: '/api/'
+  // },
+  // {
+  //   text: 'Playground',
+  //   link: 'https://sfc.vuejs.org'
+  // },
   {
-    text: 'API',
-    activeMatch: `^/api/`,
-    link: '/api/'
-  },
-  {
-    text: 'Playground',
-    link: 'https://sfc.vuejs.org'
-  },
-  {
-    text: '生态系统',
+    // text: '生态系统',
+    text: '并发编程',
     activeMatch: `^/ecosystem/`,
     items: [
       {
@@ -86,7 +88,7 @@ const nav = [
     ]
   },
   {
-    text: '语言',
+    text: '网络编程',
     items: [
       {
         text: '简体中文',
@@ -94,6 +96,78 @@ const nav = [
       },
       {
         text: 'English',
+        link: 'https://staging.vuejs.org/'
+      }
+    ]
+  },
+  {
+    text: '云原生',
+    items: [
+      {
+        text: '简体中文',
+        link: 'https://staging-cn.vuejs.org/'
+      },
+      {
+        text: 'English',
+        link: 'https://staging.vuejs.org/'
+      }
+    ]
+  },
+  {
+    text: '微服务',
+    items: [
+      {
+        text: '简体中文',
+        link: 'https://staging-cn.vuejs.org/'
+      },
+      {
+        text: 'English',
+        link: 'https://staging.vuejs.org/'
+      }
+    ]
+  },
+  {
+    text: '架构设计',
+    items: [
+      {
+        text: '简体中文',
+        link: 'https://staging-cn.vuejs.org/'
+      },
+      {
+        text: 'English',
+        link: 'https://staging.vuejs.org/'
+      }
+    ]
+  },
+  {
+    text: '项目实战',
+    items: [
+      {
+        text: '简体中文',
+        link: 'https://staging-cn.vuejs.org/'
+      },
+      {
+        text: 'English',
+        link: 'https://staging.vuejs.org/'
+      }
+    ]
+  },
+  {
+    text: '高级',
+    items: [
+      {
+        text: '编译原理',
+        link: 'https://staging-cn.vuejs.org/'
+      },
+      {
+        text: '内存管理',
+        link: 'https://staging.vuejs.org/'
+      }, {
+        text: '垃圾回收',
+        link: 'https://staging.vuejs.org/'
+      },
+      {
+        text: '元编程',
         link: 'https://staging.vuejs.org/'
       }
     ]
@@ -115,16 +189,16 @@ const nav = [
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
-  },
-  {
-    text: '赞助者',
-    link: '/sponsor/'
-  },
-  {
-    text: 'Partners',
-    link: '/partners/',
-    activeMatch: `^/partners/`,
   }
+  // {
+  //   text: '赞助者',
+  //   link: '/sponsor/'
+  // },
+  // {
+  //   text: 'Partners',
+  //   link: '/partners/',
+  //   activeMatch: `^/partners/`
+  // }
 ]
 
 export const sidebar = {
@@ -620,10 +694,10 @@ export default defineConfigWithTheme<ThemeConfig>({
     },
 
     socialLinks: [
-      { icon: 'languages', link: '/translations/' },
+      // { icon: 'languages', link: '/translations/' },
       { icon: 'github', link: 'https://github.com/vuejs/' },
-      { icon: 'twitter', link: 'https://twitter.com/vuejs' },
-      { icon: 'discord', link: 'https://discord.com/invite/HBherRA' }
+      // { icon: 'twitter', link: 'https://twitter.com/vuejs' },
+      // { icon: 'discord', link: 'https://discord.com/invite/HBherRA' }
     ],
 
     editLink: {
